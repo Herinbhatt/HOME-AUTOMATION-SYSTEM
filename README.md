@@ -20,15 +20,15 @@ In this project i have develop a conceptual prototype for a home automation syst
 
 **Microcontroller:**
 
-ESP8266: As you've highlighted, this is a suitable choice due to its integrated Wi-Fi and low cost.
+- ESP8266: As you've highlighted, this is a suitable choice due to its integrated Wi-Fi and low cost.
 
 **Relay Modules:**
 
-5V Relay Modules: To switch the AC power to the lights and fans based on signals from the ESP8266. You'll need separate relays for each device you want to control.
+- 5V Relay Modules: To switch the AC power to the lights and fans based on signals from the ESP8266. You'll need separate relays for each device you want to control.
 
 **Lights and Fans:**
 
-Standard household AC-powered lights and fans.
+- Standard household AC-powered lights and fans.
 
 **Power Supply:**
 
@@ -37,8 +37,8 @@ Standard household AC-powered lights and fans.
 
 **Manual Switches:**
 
-Standard wall switches connected in parallel with the relay's normally open (NO) contacts to allow local manual control.
+- Standard wall switches connected in parallel with the relay's normally open (NO) contacts to allow local manual control.
 
 **Wiring and Connectors:**
 
-Jumper wires, breadboard (for initial prototyping), terminal blocks for secure connections, especially for AC power. Safety is paramount when dealing with AC power.
+- Jumper wires, breadboard (for initial prototyping), terminal blocks for secure connections, especially for AC power. Safety is paramount when dealing with AC power.
