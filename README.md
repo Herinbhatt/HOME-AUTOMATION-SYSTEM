@@ -42,3 +42,5 @@ In this project i have develop a conceptual prototype for a home automation syst
 **Wiring and Connectors:**
 
 - Jumper wires, breadboard (for initial prototyping), terminal blocks for secure connections, especially for AC power. Safety is paramount when dealing with AC power.
+
+  ![Image](https://github.com/user-attachments/assets/ea2a6b62-49a0-48dd-902d-5edb4bcc3396)
