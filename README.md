@@ -90,5 +90,15 @@ In this project i have develop a conceptual prototype for a home automation syst
 - Connect the other wire of the light/fan to the neutral AC line.
 
 - Manual Switches: Connect the manual switches in parallel with the normally open (NO) contacts of the corresponding relays. One terminal of the switch goes to the COM of the relay, and the other goes to the NO of the relay.
+  
 - Power Supplies: Connect the 5V power supply to the ESP8266 and the relay modules' control circuits. Connect the AC power source to the relays and the lights/fans.
+
+**Implementing Manual Switch Control:**
+
+- You'll need to choose a digital input pin on the ESP8266 for each manual switch.
+- Connect one terminal of the manual switch to a GPIO pin on the ESP8266 and the other terminal to the ground (GND) through a pull-down resistor (typically 10kΩ). Alternatively, you can use the internal pull-up resistors of the ESP8266 and connect the switch between the GPIO pin and GND.
+- In your ESP8266 code, continuously monitor the state of these input pins.
+- If a manual switch is toggled (e.g., the input pin changes state), the ESP8266 should:
+- Immediately change the state of the corresponding relay output pin.
+- Optionally: Publish the updated state of the device to the Cadio platform so that the dashboard reflects the manual change.
 
