@@ -63,7 +63,32 @@ In this project i have develop a conceptual prototype for a home automation syst
 - 
 - Include the necessary libraries to connect to Wi-Fi and the Cadio platform's MQTT or other communication protocol (refer to Cadio's documentation for their preferred method).
 
+- **Write code to**
+  
+- Connect to your Wi-Fi network
+  
+- Establish a connection with the Cadio platform using your device credentials.
+  
+- Subscribe to the relevant control topics or channels for your defined devices on Cadio.
+  
+- Read the incoming commands from Cadio (e.g., "ON" or "OFF" for the light).
+  
+- Control the relay pins based on these commands:
+  
+- Set the corresponding ESP8266 digital output pin HIGH or LOW to activate/deactivate the relay.
+
 **3) Hardware Connections:**
 
 - ESP8266 to Relays: Connect digital output pins from the ESP8266 to the control pins of the relay modules.
+  
+- **Relays to Lights/Fans and Power:**
+  
+- Connect the common (COM) terminal of each relay to the AC power line.
+  
+- Connect the normally open (NO) terminal to one wire of the light/fan.
+  
+- Connect the other wire of the light/fan to the neutral AC line.
+
+- Manual Switches: Connect the manual switches in parallel with the normally open (NO) contacts of the corresponding relays. One terminal of the switch goes to the COM of the relay, and the other goes to the NO of the relay.
+- Power Supplies: Connect the 5V power supply to the ESP8266 and the relay modules' control circuits. Connect the AC power source to the relays and the lights/fans.
 
