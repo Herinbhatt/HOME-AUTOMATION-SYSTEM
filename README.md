@@ -50,17 +50,17 @@ In this project i have develop a conceptual prototype for a home automation syst
 **1) Cadio Platform Setup:**
 
 - Create an account on the Cadio platform (if you haven't already).
-- 
+
 - Register your ESP8266 device on the Cadio platform. This will likely involve obtaining a unique device ID and possibly an authentication token.
-- 
+  
 - Define the "things" or devices you want to control (e.g., "Living Room Light", "Bedroom Fan") within the Cadio platform.
-- 
+  
 - Create control widgets or interfaces within the Cadio dashboard to interact with these devices (e.g., buttons for ON/OFF).
 
 **2) ESP8266 Programming:**
 
 - Use the Arduino IDE with the ESP8266 board support installed.
-- 
+
 - Include the necessary libraries to connect to Wi-Fi and the Cadio platform's MQTT or other communication protocol (refer to Cadio's documentation for their preferred method).
 
 - **Write code to**
